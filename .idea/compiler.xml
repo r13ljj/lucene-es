@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="core" />
+        <module name="lucene-analyzers-common" />
+        <module name="lucene-backward-codecs" />
+        <module name="lucene-classification" />
+        <module name="lucene-core" />
+        <module name="lucene-expressions" />
+        <module name="lucene-facet" />
+        <module name="lucene-grouping" />
+        <module name="lucene-highlighter" />
+        <module name="lucene-join" />
+        <module name="lucene-memory" />
+        <module name="lucene-misc" />
+        <module name="lucene-queries" />
+        <module name="lucene-queryparser" />
+        <module name="lucene-replicator" />
+        <module name="lucene-sandbox" />
+        <module name="lucene-spatial" />
+        <module name="lucene-spatial-extras" />
+        <module name="lucene-spatial3d" />
+        <module name="lucene-suggest" />
+        <module name="lucene-test" />
+        <module name="lucene-test-demo" />
+        <module name="plugins" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8" />
+  </component>
+</project>

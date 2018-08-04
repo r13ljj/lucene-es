@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26fe13b4-54df-4a1c-8cd9-4a591bacb5bd" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/core/target/" />
+    <ignored path="$PROJECT_DIR$/lucene/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-core/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-analyzers-common/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-spatial-extras/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-sandbox/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-join/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-grouping/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-memory/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-queries/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-spatial/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-suggest/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-misc/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-highlighter/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-backward-codecs/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-spatial3d/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-queryparser/target/" />
+    <ignored path="$PROJECT_DIR$/plugins/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-test/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-facet/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-test-demo/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-expressions/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-classification/target/" />
+    <ignored path="$PROJECT_DIR$/lucene-replicator/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DefaultIndexingChain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DefaultIndexingChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="795" selection-start-line="795" selection-end-line="795" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PackedTokenAttributeImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/analysis/tokenattributes/PackedTokenAttributeImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
+              <folding>
+                <element signature="e#2148#2149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharTermAttributeImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/analysis/tokenattributes/CharTermAttributeImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="90" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BytesRefBuilder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/BytesRefBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="165" selection-start-line="165" selection-end-line="165" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TermsHashPerField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/TermsHashPerField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="152" column="36" lean-forward="true" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FreqProxTermsWriterPerField.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/FreqProxTermsWriterPerField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="865">
+              <caret line="112" column="19" lean-forward="true" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntBlockPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/IntBlockPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="159" selection-start-line="159" selection-end-line="159" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentsWriterPerThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DocumentsWriterPerThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="614" selection-start-line="614" selection-end-line="614" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BytesRefHash.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/BytesRefHash.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="469" selection-start-line="469" selection-end-line="469" />
+              <folding>
+                <element signature="e#3508#3509#0" expanded="true" />
+                <element signature="e#3530#3531#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteBlockPool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/ByteBlockPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="219" selection-start-line="219" selection-end-line="219" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>close</find>
+      <find>writeTerm\(</find>
+      <find>flush</find>
+      <find>write</find>
+      <find>reusable</find>
+      <find>abstract</find>
+      <find>intToPrefixCoded</find>
+      <find>new LowerCaseTokenizer\(</find>
+      <find>new WhitTokenizer\(</find>
+      <find>lowercase</find>
+      <find>new StandardTokenizer\(</find>
+      <find>term vector</find>
+      <find>BEST_SPEED</find>
+      <find>deleteQueue</find>
+      <find>updatedocument</find>
+      <find>BKDTree*</find>
+      <find>fst</find>
+      <find>FST\.BYTE</find>
+      <find>FST</find>
+      <find>frontier</find>
+      <find>functionscorequery</find>
+      <find>score()</find>
+      <find>static</find>
+      <find>FunctionScoreQuery</find>
+      <find>FunctionScoreWeight</find>
+      <find>defaultFormat</find>
+      <find>\</find>
+      <find>adddocument</find>
+      <find>doc</find>
+      <find>docid</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>${lucene.version}</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\git\esearch-elasticsearch\lucene-test</dir>
+      <dir>E:\git\esearch-elasticsearch</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../elasticsearch" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../elasticsearch/core" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../quasar" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lucene/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-spatial-extras/src/main/java/org/apache/lucene/spatial/bbox/BBoxSimilarityValueSource.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/elasticsearch/env/Environment.java" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/elasticsearch/common/logging/LogConfigurator.java" />
+        <option value="$PROJECT_DIR$/config/plugin-descriptor.properties" />
+        <option value="$PROJECT_DIR$/core/src/main/java/org/elasticsearch/bootstrap/Security.java" />
+        <option value="$PROJECT_DIR$/lucene-backward-codecs/src/main/resources/META-INF/services/org.apache.lucene.codecs.Codec" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/META-INF/services/org.apache.lucene.codecs.Codec" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/org/elasticsearch/bootstrap/security.policy" />
+        <option value="$PROJECT_DIR$/core/src/main/resources/org/elasticsearch/bootstrap/test-framework.policy" />
+        <option value="$PROJECT_DIR$/lucene-core/src/main/resources/org.apache.lucene.util.fst/security.policy" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-analyzers-common/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-backward-codecs/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-grouping/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-highlighter/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-join/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-memory/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-misc/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-queries/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-queryparser/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-sandbox/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-spatial/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-spatial3d/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-spatial-extras/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-suggest/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-test/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-core/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-facet/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-expressions/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-classification/src/test/java/org/apache/lucene/classification/utils/DataSplitterTest.java" />
+        <option value="$PROJECT_DIR$/lucene-classification/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-replicator/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-test-demo/src/test/java/org/apache/lucene/demo/custom/IndexTest.java" />
+        <option value="$PROJECT_DIR$/lucene-test-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/lucene-analyzers-common/src/main/java/org/apache/lucene/analysis/core/LowerCaseTokenizer.java" />
+        <option value="$PROJECT_DIR$/lucene-test-demo/src/test/java/org/apache/lucene/demo/custom/SearchTest.java" />
+        <option value="$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DefaultIndexingChain.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\mvnRepository" />
+        <option name="mavenHome" value="E:/ide/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\ide\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lucene-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lucene-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1040" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Compiler issuesJava</id>
+          </State>
+          <State>
+            <id>Finalization issuesJava</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 9Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaBeans issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>Performance issuesJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsKotlin</id>
+          </State>
+          <State>
+            <id>Security issuesJava</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene-test-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esearch-elasticsearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esearch-elasticsearch" type="462c0819:PsiDirectoryNode" />
+              <item name="lucene-test-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="TestBlockPostingsFormat3&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/test/java/org/apache/lucene/codecs/lucene50/TestBlockPostingsFormat3.java&#10;IndexWr&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/index/IndexWriter.java&#10;Indexwriter&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/index/IndexWriter.java&#10;IndexWriter&#9;PSI&#9;JAVA://org.apache.lucene.index.IndexWriter&#10;FieldCacheSource&#9;PSI&#9;JAVA://org.apache.lucene.queries.function.valuesource.FieldCacheSource&#10;QueryBuilders&#9;FILE&#9;file://E:/git/esearch-elasticsearch/core/src/main/java/org/elasticsearch/index/query/QueryBuilders.java&#10;QueryBuilder&#9;PSI&#9;JAVA://org.apache.lucene.util.QueryBuilder&#10;QueryBuil&#9;PSI&#9;JAVA://org.elasticsearch.index.query.QueryBuilder&#10;PayloadScoreQuery&#9;PSI&#9;JAVA://org.apache.lucene.queries.payloads.PayloadScoreQuery&#10;FunctionScoreQ&#9;PSI&#9;JAVA://org.apache.lucene.queries.function.FunctionScoreQuery&#10;FST&#9;PSI&#9;JAVA://org.apache.lucene.util.fst.FST&#10;blocktreetermswriter&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/codecs/blocktree/BlockTreeTermsWriter.java&#10;Document&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/index/DocumentsWriter.java&#10;IndexWrite&#9;PSI&#9;JAVA://org.apache.lucene.index.IndexWriter&#10;StoredFieldV&#9;PSI&#9;JAVA://org.apache.lucene.index.StoredFieldVisitor&#10;BEST_SPEED&#9;PSI&#9;JAVA://org.apache.lucene.codecs.lucene50.Lucene50StoredFieldsFormat.Mode#BEST_SPEED&#10;CompressioMod&#9;PSI&#9;JAVA://org.apache.lucene.codecs.compressing.CompressionMode&#10;StoredFieldsFormat&#9;PSI&#9;JAVA://org.apache.lucene.codecs.StoredFieldsFormat&#10;IndexOption&#9;PSI&#9;JAVA://org.apache.lucene.index.IndexOptions&#10;PerFieldAN&#9;PSI&#9;JAVA://org.apache.lucene.analysis.miscellaneous.PerFieldAnalyzerWrapper&#10;Lo&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-analyzers-common/src/main/java/org/apache/lucene/analysis/core/LowerCaseTokenizer.java&#10;LowerCaseTokenizer&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-analyzers-common/src/main/java/org/apache/lucene/analysis/core/LowerCaseTokenizer.java&#10;NumericPayloadTokenFilter&#9;PSI&#9;JAVA://org.apache.lucene.analysis.payloads.NumericPayloadTokenFilter&#10;LengthFi&#9;PSI&#9;JAVA://org.apache.lucene.analysis.miscellaneous.LengthFilter&#10;CJK*&#9;PSI&#9;JAVA://org.apache.lucene.analysis.cjk.CJKAnalyzer&#10;CJKToken&#9;PSI&#9;JAVA://org.apache.lucene.util.TestQueryBuilder.SimpleCJKTokenizer&#10;letterTo&#9;PSI&#9;JAVA://org.apache.lucene.analysis.core.LetterTokenizer&#10;CharTok&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-analyzers-common/src/main/java/org/apache/lucene/analysis/util/CharTokenizer.java&#10;charTerm&#9;PSI&#9;JAVA://org.apache.lucene.analysis.tokenattributes.CharTermAttribute&#10;CharTokenizer&#9;PSI&#9;JAVA://org.apache.lucene.analysis.util.CharTokenizer&#10;TermPosit&#9;PSI&#9;JAVA://org.elasticsearch.search.lookup.TermPosition&#10;SingleToken&#9;PSI&#9;JAVA://org.apache.lucene.search.TestTermRangeQuery.SingleCharAnalyzer.SingleCharTokenizer&#10;NumericTokenStream&#9;PSI&#9;JAVA://org.apache.lucene.analysis.TestNumericTokenStream&#10;lex*type&#9;PSI&#9;JAVA://com.sun.xml.internal.bind.v2.schemagen.xmlschema.ComplexType&#10;TermAttribute&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/test/java/org/apache/lucene/analysis/tokenattributes/TestCharTermAttributeImpl.java&#10;TestPayload&#9;PSI&#9;JAVA://org.apache.lucene.index.TestPayloads&#10;Attribute&#9;PSI&#9;JAVA://org.apache.lucene.util.Attribute&#10;TokenStream&#9;PSI&#9;JAVA://org.apache.lucene.analysis.TokenStream&#10;SimpleAna&#9;PSI&#9;JAVA://org.apache.lucene.analysis.core.SimpleAnalyzer&#10;OutPut&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/store/DataOutput.java&#10;Postings&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/index/PostingsEnum.java&#10;DocumentsWriter&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/index/DocumentsWriter.java&#10;FreqProx&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/index/FreqProxTermsWriter.java&#10;FreqProxTerms&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/index/FreqProxTermsWriterPerField.java&#10;TermVectorConsu&#9;PSI&#9;JAVA://org.apache.lucene.index.TermVectorsConsumerPerField&#10;FieldInfos&#9;PSI&#9;JAVA://org.apache.lucene.index.FieldInfos&#10;TermsHash&#9;PSI&#9;JAVA://org.apache.lucene.index.TermsHash&#10;TermVectorsConsumer&#9;FILE&#9;file://E:/git/esearch-elasticsearch/lucene-core/src/main/java/org/apache/lucene/index/TermVectorsConsumer.java&#10;CharBlock&#9;PSI&#9;JAVA://org.apache.lucene.facet.taxonomy.writercache.CharBlockArray&#10;Posting*&#9;PSI&#9;JAVA://org.apache.lucene.search.PhraseQuery.PostingsAndFreq" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\esearch-elasticsearch\lucene-replicator\src\test\java" />
+      <recent name="E:\git\esearch-elasticsearch\lucene-replicator\src\main\java" />
+      <recent name="E:\git\esearch-elasticsearch\lucene-classification\src\test\java" />
+      <recent name="E:\git\esearch-elasticsearch\lucene-classification\src\main\java" />
+      <recent name="E:\git\esearch-elasticsearch\lucene-expressions\src\test\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git\esearch-elasticsearch\config" />
+      <recent name="E:\git\esearch-elasticsearch\lucene-core\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.IndexTest">
+    <configuration name="Elasticsearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.elasticsearch.bootstrap.Elasticsearch" />
+      <module name="core" />
+      <option name="VM_PARAMETERS" value="-Des.path.home=$PROJECT_DIR$/core -Dlog4j2.disable.jmx=true" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.elasticsearch.bootstrap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="IndexTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.apache.lucene.demo.custom.IndexTest" />
+      <module name="lucene-test-demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.lucene.demo.custom.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestPayloads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lucene-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.lucene.index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.lucene.index" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.lucene.index.TestPayloads" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestPayloads.testPayloadFieldBit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lucene-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.apache.lucene.index.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="org.apache.lucene.index" />
+      <option name="MAIN_CLASS_NAME" value="org.apache.lucene.index.TestPayloads" />
+      <option name="METHOD_NAME" value="testPayloadFieldBit" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="mvn-esearch-elasticsearch" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-analyzers-common" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-analyzers-common" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-backward-codecs" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-backward-codecs" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-core" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-core" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-grouping" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-grouping" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-highlighter" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-highlighter" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-join" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-join" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-memory" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-memory" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-misc" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-misc" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-queries" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-queries" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-queryparser" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-queryparser" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-sandbox" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-sandbox" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-spatial-extras" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-spatial-extras" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-spatial" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-spatial" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-spatial3d" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-spatial3d" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="mvn-lucene-suggest" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/lucene-suggest" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Maven.mvn-esearch-elasticsearch" />
+      <item itemvalue="Maven.mvn-lucene-core" />
+      <item itemvalue="Maven.mvn-lucene-queries" />
+      <item itemvalue="Maven.mvn-lucene-grouping" />
+      <item itemvalue="Maven.mvn-lucene-highlighter" />
+      <item itemvalue="Maven.mvn-lucene-join" />
+      <item itemvalue="Maven.mvn-lucene-memory" />
+      <item itemvalue="Maven.mvn-lucene-misc" />
+      <item itemvalue="Maven.mvn-lucene-queryparser" />
+      <item itemvalue="Maven.mvn-lucene-sandbox" />
+      <item itemvalue="Maven.mvn-lucene-spatial" />
+      <item itemvalue="Maven.mvn-lucene-spatial3d" />
+      <item itemvalue="Maven.mvn-lucene-analyzers-common" />
+      <item itemvalue="Maven.mvn-lucene-spatial-extras" />
+      <item itemvalue="Maven.mvn-lucene-suggest" />
+      <item itemvalue="Maven.mvn-lucene-backward-codecs" />
+      <item itemvalue="Application.Elasticsearch" />
+      <item itemvalue="JUnit.TestPayloads.testPayloadFieldBit" />
+      <item itemvalue="JUnit.TestPayloads" />
+      <item itemvalue="Application.IndexTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IndexTest" />
+        <item itemvalue="JUnit.TestPayloads.testPayloadFieldBit" />
+        <item itemvalue="JUnit.TestPayloads" />
+        <item itemvalue="Application.Elasticsearch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Lijunjun\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26fe13b4-54df-4a1c-8cd9-4a591bacb5bd" name="Default" comment="" />
+      <created>1530849693010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530849693010</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestPayloads - 2018.07.30 at 14h 39m 07s.xml">
+      <configuration name="TestPayloads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPayloads_testPayloadFieldBit - 2018.07.30 at 14h 39m 46s.xml">
+      <configuration name="TestPayloads.testPayloadFieldBit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPayloads_testPayloadFieldBit - 2018.07.30 at 14h 39m 56s.xml">
+      <configuration name="TestPayloads.testPayloadFieldBit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPayloads_testPayloadFieldBit - 2018.08.01 at 16h 41m 04s.xml">
+      <configuration name="TestPayloads.testPayloadFieldBit" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1928" height="1044" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32897604" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32960597" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4030501" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49782136" visible="true" weight="0.28168264" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info id="Structure" order="1" sideWeight="0.50217867" side_tool="true" weight="0.28168264" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/bootstrap/ESPolicy.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/test/java/org/apache/lucene/index/TestPayloads.java</url>
+          <line>82</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/IndexWriter.java</url>
+          <line>1566</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DocumentsWriter.java</url>
+          <line>460</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/IndexWriter.java</url>
+          <line>5037</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DocumentsWriter.java</url>
+          <line>477</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DocumentsWriterPerThread.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DefaultIndexingChain.java</url>
+          <line>384</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DocumentsWriterPerThread.java</url>
+          <line>331</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/StoredFieldsConsumer.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DefaultIndexingChain.java</url>
+          <line>427</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/StoredFieldsConsumer.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DefaultIndexingChain.java</url>
+          <line>418</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-queries/src/main/java/org/apache/lucene/queries/function/FunctionScoreQuery.java</url>
+          <line>153</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-queries/src/main/java/org/apache/lucene/queries/function/FunctionScoreQuery.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DefaultIndexingChain.java</url>
+          <line>718</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="&quot;_&quot; + Integer.toString(segmentInfos.counter++, Character.MAX_RADIX)" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="file.getFileName()" />
+        <watch expression="DEFAULT_PATH_CONF_SETTING" />
+        <watch expression="PATH_CONF_SETTING" />
+        <watch expression="PathUtils.get(cleanPath(PATH_CONF_SETTING.get(settings)));" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/QueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="504" column="16" selection-start-line="504" selection-start-column="16" selection-end-line="504" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/query/QueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/query/QueryBuilders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="390" column="37" selection-start-line="390" selection-start-column="37" selection-end-line="390" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/query/functionscore/FunctionScoreQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8849">
+          <caret line="132" column="11" selection-start-line="132" selection-start-column="11" selection-end-line="132" selection-end-column="11" />
+          <folding>
+            <element signature="e#4294#4295#0" expanded="true" />
+            <element signature="e#4351#4352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-queries/src/main/java/org/apache/lucene/queries/function/valuesource/FieldCacheSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-queries/src/main/java/org/apache/lucene/queries/function/FunctionScoreQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="52" column="48" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/search/DoubleValuesSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-queries/src/main/java/org/apache/lucene/queries/function/ValueSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="156" column="15" selection-start-line="156" selection-start-column="15" selection-end-line="156" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-expressions/src/test/java/org/apache/lucene/expressions/TestDemoExpressions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="254" column="52" selection-start-line="254" selection-start-column="52" selection-end-line="254" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-facet/src/test/java/org/apache/lucene/facet/range/TestRangeFacetCounts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="740" column="19" selection-start-line="740" selection-start-column="19" selection-end-line="740" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-test-demo/src/test/java/org/apache/lucene/demo/custom/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/codecs/lucene62/Lucene62Codec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
+          <folding>
+            <element signature="e#5176#5177#0" expanded="true" />
+            <element signature="e#5206#5207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/codec/PerFieldMappingPostingFormatCodec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/store/IndexStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-983">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/AbstractIndexComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/AlreadyExpiredException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/IndexService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#34863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/IndexComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/engine/InternalEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="455" column="24" lean-forward="true" selection-start-line="455" selection-start-column="23" selection-end-line="455" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/shard/TranslogRecoveryPerformer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="200" column="15" selection-start-line="200" selection-start-column="15" selection-end-line="200" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/shard/IndexingOperationListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+          <folding>
+            <element signature="e#1290#1291#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/mapper/IdFieldMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/engine/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="968" column="15" selection-start-line="968" selection-start-column="15" selection-end-line="968" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/action/bulk/TransportShardBulkAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="440" column="53" selection-start-line="440" selection-start-column="32" selection-end-line="440" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/org/elasticsearch/index/shard/IndexShard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="518" column="27" lean-forward="true" selection-start-line="518" selection-start-column="27" selection-end-line="518" selection-end-column="27" />
+          <folding>
+            <element signature="e#67434#67435#0" expanded="true" />
+            <element signature="e#67490#67491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/IndexWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="1570" column="39" lean-forward="true" selection-start-line="1570" selection-start-column="39" selection-end-line="1570" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/codecs/StoredFieldsWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/codecs/compressing/CompressingStoredFieldsWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="154" column="14" selection-start-line="154" selection-start-column="14" selection-end-line="154" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/StoredFieldsConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/TermsHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/TermVectorsConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="143" column="27" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DocumentsWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="477" selection-start-line="477" selection-end-line="477" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/test/java/org/apache/lucene/codecs/lucene50/TestBlockPostingsFormat3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/FieldInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/FieldInvertState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/document/FieldType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="234" selection-start-line="234" selection-end-line="234" />
+          <folding>
+            <element signature="e#4322#4323#0" expanded="true" />
+            <element signature="e#4353#4354#0" expanded="true" />
+            <element signature="e#4931#4932#0" expanded="true" />
+            <element signature="e#4969#4970#0" expanded="true" />
+            <element signature="e#5584#5585#0" expanded="true" />
+            <element signature="e#5628#5629#0" expanded="true" />
+            <element signature="e#6276#6277#0" expanded="true" />
+            <element signature="e#6322#6323#0" expanded="true" />
+            <element signature="e#7016#7017#0" expanded="true" />
+            <element signature="e#7631#7632#0" expanded="true" />
+            <element signature="e#7662#7663#0" expanded="true" />
+            <element signature="e#8237#8238#0" expanded="true" />
+            <element signature="e#8271#8272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/TermVectorsConsumerPerField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1364">
+          <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/AttributeSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/document/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="644" selection-start-line="644" selection-end-line="644" />
+          <folding>
+            <element signature="e#17252#17253#0" expanded="true" />
+            <element signature="e#17273#17274#0" expanded="true" />
+            <element signature="e#21781#21782#0" expanded="true" />
+            <element signature="e#21807#21808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/analysis/tokenattributes/PackedTokenAttributeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="e#2148#2149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DefaultIndexingChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="795" selection-start-line="795" selection-end-line="795" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/BytesRefBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="165" selection-start-line="165" selection-end-line="165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/analysis/tokenattributes/CharTermAttributeImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/BytesRefHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="469" selection-start-line="469" selection-end-line="469" />
+          <folding>
+            <element signature="e#3508#3509#0" expanded="true" />
+            <element signature="e#3530#3531#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/DocumentsWriterPerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/IntBlockPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/util/ByteBlockPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/TermsHashPerField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="152" column="36" lean-forward="true" selection-start-line="152" selection-start-column="36" selection-end-line="152" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lucene-core/src/main/java/org/apache/lucene/index/FreqProxTermsWriterPerField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="865">
+          <caret line="112" column="19" lean-forward="true" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>core</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.globalegrow.esearch:lucene:5.6.4-SNAPSHOT</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

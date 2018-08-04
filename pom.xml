@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.globalegrow.esearch</groupId>
+    <artifactId>elasticsearch</artifactId>
+    <packaging>pom</packaging>
+    <version>5.6.4-SNAPSHOT</version>
+
+    <properties>
+        <jdk.version>1.8</jdk.version>
+        <lucene.version>6.6.1</lucene.version>
+    </properties>
+
+    <modules>
+        <module>core</module>
+        <module>lucene-core</module>
+        <module>lucene-analyzers-common</module>
+        <module>lucene-backward-codecs</module>
+        <module>lucene-grouping</module>
+        <module>lucene-highlighter</module>
+        <module>lucene-join</module>
+        <module>lucene-memory</module>
+        <module>lucene-misc</module>
+        <module>lucene-queries</module>
+        <module>lucene-queryparser</module>
+        <module>lucene-sandbox</module>
+        <module>lucene-spatial</module>
+        <module>lucene-spatial-extras</module>
+        <module>lucene-spatial3d</module>
+        <module>lucene-suggest</module>
+        <module>plugins</module>
+        <module>lucene-test</module>
+        <module>lucene-test-demo</module>
+        <module>lucene-facet</module>
+        <module>lucene-expressions</module>
+        <module>lucene-classification</module>
+        <module>lucene-replicator</module>
+    </modules>
+
+
+</project>
