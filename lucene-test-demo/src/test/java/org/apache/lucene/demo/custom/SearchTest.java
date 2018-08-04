@@ -12,7 +12,7 @@ import org.apache.lucene.util.QueryBuilder;
  *
  *  File: SearchTest.java
  *
- *  Copyright (c) 2018, globalegrow.com All Rights Reserved.
+ *  Copyright (c) 2018, jonex.com All Rights Reserved.
  *
  *  Description:
  *  TODO
