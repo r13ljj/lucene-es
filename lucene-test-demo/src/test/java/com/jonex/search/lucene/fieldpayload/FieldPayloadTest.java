@@ -252,9 +252,9 @@ public class FieldPayloadTest {
         FieldPayloadTest test = new FieldPayloadTest();
         //test.addDocument();
         //test.hasPayload();
-        test.getPaylaod();
+        //test.getPaylaod();
         //test.mixupMultiValue();
-        //test.search();
+        test.search();
     }
 
 }
