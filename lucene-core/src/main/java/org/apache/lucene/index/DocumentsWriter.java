@@ -460,8 +460,9 @@ final class DocumentsWriter implements Closeable, Accountable {
   long updateDocument(final Iterable<? extends IndexableField> doc, final Analyzer analyzer,
       final Term delTerm) throws IOException, AbortingException {
 
+    //执行flush
     boolean hasEvents = preUpdate();
-
+    //获得一个DWPT封装对象，ThreadState继承了ReentrantLock可重入
     final ThreadState perThread = flushControl.obtainAndLock();
 
     final DocumentsWriterPerThread flushingDWPT;

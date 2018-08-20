@@ -1568,9 +1568,11 @@ public class IndexWriter implements Closeable, TwoPhaseCommit, Accountable {
     try {
       boolean success = false;
       try {
+        //标示影响了索引的操作顺序号
         long seqNo = docWriter.updateDocument(doc, analyzer, term);
         if (seqNo < 0) {
           seqNo = - seqNo;
+          //处理事件：ApplyDeletesEvent MergePendingEvent DeleteNewFilesEvent FlushFailedEvent ForcedPurgeEvent
           processEvents(true, false);
         }
         success = true;
@@ -5072,7 +5074,7 @@ public class IndexWriter implements Closeable, TwoPhaseCommit, Accountable {
 
   /** Anything that will add N docs to the index should reserve first to
    *  make sure it's allowed.  This will throw {@code
-   *  IllegalArgumentException} if it's not allowed. */ 
+   *  IllegalArgumentException} if it's not allowed. */
   private void reserveDocs(long addedNumDocs) {
     assert addedNumDocs >= 0;
     if (pendingNumDocs.addAndGet(addedNumDocs) > actualMaxDocs) {
