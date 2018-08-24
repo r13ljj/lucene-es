@@ -285,9 +285,13 @@ final class DocumentsWriterFlushControl implements Accountable {
     assert !perThread.flushPending;
     if (perThread.dwpt.getNumDocsInRAM() > 0) {
       perThread.flushPending = true; // write access synced
+      //需要indexin doc 字节数
       final long bytes = perThread.bytesUsed;
+      //flush 字节数
       flushBytes += bytes;
+      //可用字节数
       activeBytes -= bytes;
+      //挂起状态DWPT计数
       numPending++; // write access synced
       assert assertMemory();
     } // don't assert on numDocs since we could hit an abort excp. while selecting that dwpt for flushing

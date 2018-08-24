@@ -464,7 +464,7 @@ final class DocumentsWriter implements Closeable, Accountable {
     boolean hasEvents = preUpdate();
     //获得一个DWPT封装对象，ThreadState继承了ReentrantLock可重入
     final ThreadState perThread = flushControl.obtainAndLock();
-
+    //flush DWPT
     final DocumentsWriterPerThread flushingDWPT;
     long seqNo;
     try {
@@ -476,8 +476,10 @@ final class DocumentsWriter implements Closeable, Accountable {
       final DocumentsWriterPerThread dwpt = perThread.dwpt;
       final int dwptNumDocs = dwpt.getNumDocsInRAM();
       try {
+        //DWPT 处理doc
         seqNo = dwpt.updateDocument(doc, analyzer, delTerm); 
       } catch (AbortingException ae) {
+        //取出过时的DWPT
         flushControl.doOnAbort(perThread);
         dwpt.abort();
         throw ae;
@@ -485,9 +487,11 @@ final class DocumentsWriter implements Closeable, Accountable {
         // We don't know whether the document actually
         // counted as being indexed, so we must subtract here to
         // accumulate our separate counter:
+        //不管DWPT是否indexing成功，从DWPT取出写入RAM的doc
         numDocsInRAM.addAndGet(dwpt.getNumDocsInRAM() - dwptNumDocs);
       }
       final boolean isUpdate = delTerm != null;
+      //获取flush DWPT
       flushingDWPT = flushControl.doAfterDocument(perThread, isUpdate);
 
       assert seqNo > perThread.lastSeqNo: "seqNo=" + seqNo + " lastSeqNo=" + perThread.lastSeqNo;
@@ -497,6 +501,7 @@ final class DocumentsWriter implements Closeable, Accountable {
       perThreadPool.release(perThread);
     }
 
+    //是否执行flush，因此最好批量indexing docs以免每次flush
     if (postUpdate(flushingDWPT, hasEvents)) {
       seqNo = -seqNo;
     }

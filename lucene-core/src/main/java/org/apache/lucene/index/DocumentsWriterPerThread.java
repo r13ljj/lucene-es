@@ -213,10 +213,12 @@ class DocumentsWriterPerThread {
   public long updateDocument(Iterable<? extends IndexableField> doc, Analyzer analyzer, Term delTerm) throws IOException, AbortingException {
     testPoint("DocumentsWriterPerThread addDocument start");
     assert deleteQueue != null;
+    //“存储”新文档，pendingNumDocs计数+1
     reserveOneDoc();
     docState.doc = doc;
     docState.analyzer = analyzer;
     docState.docID = numDocsInRAM;
+    //Log4j的日志对象避免重复创建，通过name映射存储的Logger
     if (INFO_VERBOSE && infoStream.isEnabled("DWPT")) {
       infoStream.message("DWPT", Thread.currentThread().getName() + " update delTerm=" + delTerm + " docID=" + docState.docID + " seg=" + segmentInfo.name);
     }

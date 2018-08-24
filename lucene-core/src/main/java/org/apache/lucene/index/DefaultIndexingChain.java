@@ -392,14 +392,15 @@ final class DefaultIndexingChain extends DocConsumer {
     // analyzer is free to reuse TokenStream across fields
     // (i.e., we cannot have more than one TokenStream
     // running "at once"):
-
+    //准备好termHash
     termsHash.startDocument();
-
+    //字段信息存储准备
     startStoredFields(docState.docID);
 
     boolean aborting = false;
     try {
       for (IndexableField field : docState.doc) {
+        //每个字段一一处理
         fieldCount = processField(field, fieldGen, fieldCount);
       }
     } catch (AbortingException ae) {
@@ -444,6 +445,7 @@ final class DefaultIndexingChain extends DocConsumer {
       
       fp = getOrAddField(fieldName, fieldType, true);
       boolean first = fp.fieldGen != fieldGen;
+      //生成倒排索引postings list
       fp.invert(field, first);
 
       if (first) {
@@ -465,6 +467,7 @@ final class DefaultIndexingChain extends DocConsumer {
           throw new IllegalArgumentException("stored field \"" + field.name() + "\" is too large (" + value.length() + " characters) to store");
         }
         try {
+          //存储字段信息和字段值
           storedFieldsConsumer.writeField(fp.fieldInfo, field);
         } catch (Throwable th) {
           throw AbortingException.wrap(th);
@@ -480,12 +483,14 @@ final class DefaultIndexingChain extends DocConsumer {
       if (fp == null) {
         fp = getOrAddField(fieldName, fieldType, false);
       }
+      //写入DocValues
       indexDocValue(fp, dvType, field);
     }
     if (fieldType.pointDimensionCount() != 0) {
       if (fp == null) {
         fp = getOrAddField(fieldName, fieldType, false);
       }
+      //写入BKD文件
       indexPoint(fp, field);
     }
     
@@ -742,7 +747,7 @@ final class DefaultIndexingChain extends DocConsumer {
         stream.reset();
         invertState.setAttributeSource(stream);
         termsHashPerField.start(field, first);
-
+        //通过TokenStream迭代获取token
         while (stream.incrementToken()) {
 
           // If we hit an exception in stream.next below
@@ -793,6 +798,7 @@ final class DefaultIndexingChain extends DocConsumer {
           // corrupt and should not be flushed to a
           // new segment:
           try {
+            //通过termsHashPerField把token写入
             termsHashPerField.add();
           } catch (MaxBytesLengthExceededException e) {
             byte[] prefix = new byte[30];
